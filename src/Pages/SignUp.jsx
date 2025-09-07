@@ -42,7 +42,7 @@ function SignUp(props)
                      <input type="text" 
                     className="w-52 border-black bg-transparent p-1 border rounded-sm" 
                     placeholder="Enter Confirm Password"/>
-                    <button className="bg-[#8272DA] w-24 p-1 rounded-md" onClick={addUser}>SignUp</button>
+                    <button className="bg-[#8272DA] hover:bg-violet-500 w-24 p-1 rounded-md" onClick={addUser}>SignUp</button>
                     <p>Already Have an Account?<Link to={"/"} className="underline"> Login </Link></p>
                 </div>
             </div>

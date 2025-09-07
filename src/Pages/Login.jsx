@@ -54,7 +54,7 @@ function Login(props)
                     onChange={handleUpass}
                     />
 
-                    <button className="bg-[#FCA201] w-24 p-1 rounded-md" onClick={checkUser}>Login</button>
+                    <button className="bg-[#FCA201] hover:bg-orange-500 w-24 p-1 rounded-md" onClick={checkUser}>Login</button>
                     <p>Don't Haven an Account?<Link to={"/SignUp"} className="underline"> SignUp </Link></p>
                 </div>
             </div>
