@@ -10,8 +10,8 @@ function Landing()
       <div className="bg-[#EFEFEF] p-10 border rounded-md">
         <Header name={data.state.euser}/>
         <div className="flex justify-between md:p-10 gap-7 flex-wrap my-5 ">
-          <Card bgcolor={"#8272DA"} title={"23"} subtitle={"Chennai"} />
-          <Card bgcolor={"#FD6663"} title={"December"} subtitle={"14:23:55"} />
+          <Card bgcolor={"#8272DA"} title={"23°"} subtitle={"Hosur"} />
+          <Card bgcolor={"#FD6663"} title={"September"} subtitle={"18:55:55"} />
           <Card bgcolor={"#FCA201"} title={"Build Using"} subtitle={"React"} />
         </div>
         <TodoContainer />
