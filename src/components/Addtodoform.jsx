@@ -18,7 +18,7 @@ function Addtodoform(props) {
                 <h1 className="text-2xl font-medium">Manage Activities</h1>
                 <div>
                     <input className="border border-black p-1 bg-transparent" placeholder="Next Activity" type="text" value={newalist} onChange={handleChange} required/>
-                    <button onClick={handleAdd} className="bg-gray-500 p-1 hover:bg-gray-700 text-white mx-2 px-1 border rounded-sm border-black">ADD</button>
+                    <button onClick={handleAdd} className="bg-gray-500 p-1 hover:bg-gray-700 text-white md:mx-2 px-1 border rounded-sm border-black">ADD</button>
                 </div>
             </div>
         </div>
